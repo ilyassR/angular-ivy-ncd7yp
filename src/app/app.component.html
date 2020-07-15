@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+<div>
+  Start editing to see some magic happen {{bgColor}}
+</div>
+<div [style.backgroundColor]="bgColor" [hidden]="isHidden">
+  Binding {{bgColor}}
+</div>
+<button class="btn btn-danger" (click)="changeStatus()">Alumer/Eteindre</button>
