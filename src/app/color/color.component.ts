@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./color.component.css']
 })
 export class ColorComponent {
+  bgColor = "red";
 
   constructor() { }
 
   changeColor() {
-    
+    //this.bgColor = 
+    console.log(this.bgColor);
   }
 
 }

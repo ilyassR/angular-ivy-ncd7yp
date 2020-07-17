@@ -1,2 +1,2 @@
-<div>Color</div>
-<input (change)="changeColor()" type="text" class="form-control">
+<div [style.backgroundColor]="bgColor">Color</div>
+<input #inputColor (change)="changeColor(inputColor)" type="text" class="form-control">
